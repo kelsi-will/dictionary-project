@@ -6,7 +6,10 @@ function Phonetic({ phonetic }) {
       <div className="Phonetic">
   {phonetic.map((phonetic, index) => {
     return (
-      <div key={index}>{phonetic}</div>
+      <div key={index}>
+        <a href={phonetic.audio} target="_blank">Listen</a>
+        <span> {phonetic.text}</span>
+        </div>
       )})
   }
    </div>
