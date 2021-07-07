@@ -1,4 +1,5 @@
 import React from "react";
+import Audio from "./Audio";
 
 function Phonetic({ phonetic }) {
   if (phonetic) {
@@ -7,7 +8,7 @@ function Phonetic({ phonetic }) {
   {phonetic.map((phonetic, index) => {
     return (
       <div key={index}>
-        <a href={phonetic.audio} target="_blank">Listen</a>
+        <Audio audio={phonetic.audio}/>
         <span> {phonetic.text}</span>
         </div>
       )})
