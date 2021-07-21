@@ -1,5 +1,5 @@
 import React from "react";
-import Audio from "./Audio";
+import Audio from "./AudioComponent";
 
 function Phonetic({ phonetic }) {
   if (phonetic) {

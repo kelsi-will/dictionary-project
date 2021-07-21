@@ -1,8 +1,8 @@
 import React from "react";
 
-function Audio({ audio }) {
-  function play() {
+function AudioComponent({ audio }) {
       let audioElement = new Audio(audio);
+      function play() {
       audioElement.play();
     }
   return (
@@ -14,4 +14,4 @@ function Audio({ audio }) {
   );
 }
 
-export default Audio;
+export default AudioComponent;
