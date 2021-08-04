@@ -1,8 +1,29 @@
+:root {
+  --primary-color: #126E82;
+  --secondary-color: #132C33;
+  --background-color: #D8E3E7;
+  --accent-color: #51C4D3;
+}
+
+body {
+  background: var(--background-color);
+}
+
+h1 {
+  color: var(--primary-color);
+  font-weight: bold;
+  font-size: 48px;
+  margin-left: 10px;
+}
+
+.App a {
+  color: var(--accent-color);
+}
+
 .App-header {
   margin: 30px 0;
 }
 
 .App-footer {
-  text-align: center;
   margin: 30px 0;
 }

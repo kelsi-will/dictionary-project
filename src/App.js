@@ -6,10 +6,10 @@ function App() {
     <div className="App">
       <div className="container">
       <header className="App-header">
-        <h1 className="text-center">Dictionary</h1>
+        <h1>Dictionary</h1>
       </header>
       <main>
-        <Dictionary />
+        <Dictionary defaultKeyword="sunset" />
       </main>
       <footer className="App-footer">
         <small>Coded by <a href="https//kelsiwilliams.com" target="_blank" rel="noreferrer">Kelsi Williams</a> and is <a href="https://github.com/kelsi-will/dictionary-project" target="_blank" rel="noreferrer">open-sourced</a></small>

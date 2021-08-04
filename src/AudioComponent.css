@@ -1,0 +1,13 @@
+.AudioComponent button {
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    background: var(--background-color);
+    color: var(--primary-color);
+    
+}
+
+.AudioComponent button:hover {
+    background: var(--primary-color);
+    color: var(--background-color);
+    transition: all 150ms ease-in-out;
+}

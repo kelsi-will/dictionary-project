@@ -1,4 +1,5 @@
 import React from "react";
+import "./AudioComponent.css"
 
 function AudioComponent({ audio }) {
       let audioElement = new Audio(audio);
@@ -6,7 +7,7 @@ function AudioComponent({ audio }) {
       audioElement.play();
     }
   return (
-    <div className="Audio">
+    <div className="AudioComponent">
       <button onClick={play}>
       <i class="fas fa-volume-up"></i>
       </button>
