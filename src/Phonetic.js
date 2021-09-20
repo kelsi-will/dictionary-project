@@ -8,7 +8,7 @@ function Phonetic({ phonetic }) {
       <div className="Phonetic">
   {phonetic.map((phonetic, index) => {
     return (
-      <div key={index}>
+      <div className="d-flex" key={index}>
          <AudioComponent audio={phonetic.audio}/>
         <span className="text">{phonetic.text}</span>
       </div>

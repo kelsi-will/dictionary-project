@@ -16,6 +16,11 @@ h1 {
   margin-left: 10px;
 }
 
+.App {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
 .App a {
   color: var(--accent-color);
 }
